@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--
+		Basic
+	-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ankit Choudhary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Hey, this is my personal portfolio developed using HTML,CSS,Javascript,Bootstrap">
+    <meta name="author" content="Ankit Choudhary">
+
+
+
+    <!--
+        Load Fonts
+        
+    -->
+    <script src="https://kit.fontawesome.com/1441f92bf9.js" crossorigin="anonymous"></script>
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"
+        id="font-awesome-5-kit-css">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"
+        rel="stylesheet" id="font-awesome-5-kit-css">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet"
+        id="font-awesome-5-kit-css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/ionicons.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=cyrillic"
+        rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="stylesheet" href="./css/green.css">
+    <!--
+		Icon
+	-->
+    <link rel="shortcut icon" href="./image/mylogo.png">
+    <script src='./script/scripts-min.js'></script>
+</head>
+
+
+<body>
+    <div class="page">
+
+        <!--
+			Preloader
+		-->
+        <div class="preloader" style="background-image: url(./image/profile0.gif); background-position: center;">
+            <div class="loader-wrapper">
+                <button onclick="foo()" id="start">
+                    <div class="loader">J.A.R.V.I.S <br>Click Me<span></span></div>
+                </button>
+            </div>
+            <div class="spinner"></div>
+        </div>
+        <script>
+            $(window).on("load", function () {
+                $(".loader-wrapper").fadeOut("slow");
+            });
+
+        </script>
+
+        <!--
+			Header
+		-->
+        <header class="header">
+
+            <!-- logo -->
+            <div class="logo">
+                <a href="index.html"><span>AC</span></a>
+            </div>
+
+
+            <!-- menu -->
+            <div class="top-menu">
+                <ul>
+                    <li class="active">
+                        <a href="#home-card">
+                            <span class="icon fas fa-home"></span>
+                            <span class="link">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about-card">
+                            <span class="icon fas fa-user"></span>
+                            <span class="link">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume-card">
+                            <span class="icon fas fa-cog"></span>
+                            <span class="link">Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#works-card">
+                            <span class="icon fas fa-eye"></span>
+                            <span class="link">Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacts-card">
+                            <span class="icon fas fa-envelope"></span>
+                            <span class="link">Contacts</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Started socials -->
+            <div class="social">
+                <a href="https://twitter.com/letscode7">
+                    <span class="fab fa-twitter" aria-hidden="true"></span>
+                </a>
+                <a href="https://github.com/ankit1509">
+                    <span class="fab fa-github" aria-hidden="true"></span>
+                </a>
+                <a href="https://github.com/letscode1509">
+                    <span class="fab fa-github" aria-hidden="true"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/ankit-choudhary-342410175">
+                    <span class="fab fa-linkedin" aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <span class="menu-btn">
+                <span class="m-line"></span>
+            </span>
+
+        </header>
+
+        <!--
+			Container
+		-->
+        <div class="container">
+
+            <!--
+				Card - Started
+			-->
+            <div class="card-inner card-started active" id="home-card">
+
+                <!-- Started Background -->
+                <div id="particles-bg" class="slide" style="background-image: url(./image/maybe1.jpg);"></div>
+
+                <div class="centrize full-width">
+                    <div class="vertical-center">
+
+                        <div class="title"><span
+                                style="color:rgb(14, 229, 233);font-family:cursive; font-weight:bold; font-size: 125% ">Ankit
+                                Choudhary</span> </div>
+                        <div class="subtitle">
+
+                            I am
+                            <div id='type-text' style="display:inline-block;">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 
+				Card - About
+			-->
+            <div class="card-inner" id="about-card">
+                <div class="row card-container">
+
+                    <!--
+						Card Wrap
+					-->
+                    <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar="">
+
+                        <!-- About Image -->
+                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+                            style="background-image: url(./image/profile3.jpg);"></div>
+
+                        <!--
+							Inner Top
+						-->
+                        <div class="content inner-top">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                                    <div class="title-bg">About Me</div>
+                                    <div class="text">
+                                        <p>
+                                            <strong>Hello, I am Ankit Choudhary</strong>, a Student of Computer
+                                            Science Engineering. <br> I was learning IOT, Python, Data Science
+                                            Technologies. <br> Also I am good at <strong>C, C++, <br>
+                                                javascript, HTML, CSS.</strong>
+                                        </p>
+                                    </div>
+                                    <div class="circle-bts">
+                                        <a href="https://drive.google.com/file/d/1iNzVV9GLPnD_aeq1pfz4pTfuSnnFZBDU/view?usp=sharing"
+                                            download!=""><span><i class="icon fas fa-download"
+                                                    aria-hidden="true"></i>Download RESUME</span></a>
+                                        <a target="_blank" href="https://twitter.com/letscode7"><span
+                                                class="fab fa-twitter" aria-hidden="true"></span></a>
+                                        <a target="_blank" href="https://github.com/ankit1509"><span
+                                                class="fab fa-github" aria-hidden="true"></span></a>
+                                        <a target="_blank" href="https://github.com/letscode1509"><span
+                                                class="fab fa-github" aria-hidden="true"></span></a>
+                                        <a target="_blank"
+                                            href="https://www.linkedin.com/in/ankit-choudhary-342410175"><span
+                                                class="fab fa-linkedin" aria-hidden="true"></span></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 
+				Card - Resume
+			-->
+            <div class="card-inner" id="resume-card">
+                <div class="row card-container">
+
+                    <!--
+						Card Wrap
+					-->
+                    <!---->
+                    <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar="">
+
+                        <!-- Resume Image -->
+
+                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+                            style="background-image: url(./image/photo1.jpg);">
+                        </div>
+
+                        <!--
+							Inner Top
+						-->
+                        <div class="content inner-top">
+                            <div class="row">
+                                <div class=" col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                                    <div class="title-bg">Resume</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+							Resume
+						-->
+                        <div class="content resume">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+                                    <!-- title -->
+                                    <div class="title"><span>My</span> Experience</div>
+
+                                    <!-- resume items -->
+                                    <div class="resume-items card-box">
+
+                                        <!-- resume item -->
+                                        <div class="resume-item">
+                                            <div class="name">Worked on IOT and simple arduino</div>
+                                            <div class="date">March<span>|</span> </div>
+                                            <p>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p> 2020 </p>
+                                                </li><br>
+                                                <li>
+                                                </li><br>
+                                                <li>
+                                                    <p><br>Worked on an arduino to make home project using bluetooth
+                                                        module to control the home appliances.</p>
+                                                </li><br>
+                                                <li>
+                                                    <p>Worked on an Node MCU to make the above discussed Home
+                                                        automation with IOT technology via a wi-fi control of Home
+                                                        appliances</p>
+                                                </li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+
+                                        <!-- resume item -->
+                                        <div class="resume-item">
+                                            <div class="name">Working on Python </div>
+                                            <div class="date">January - May<span>|</span></div>
+                                            <p>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p> 2020 </p>
+                                                    <p>starting Building Projects from Python </p>
+                                                </li><br>
+                                                <li>
+                                                </li><br>
+                                                <li>
+                                                    <p><br> Developed 2 game using Pygame</p>
+                                                </li><br>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+                                    <!-- title -->
+                                    <div class="title"><span>My</span> Education</div>
+
+                                    <!-- resume items -->
+                                    <div class="resume-items card-box">
+
+                                        <!-- resume item -->
+                                        <div class="resume-item">
+                                            <div class="name">Anand International College of Engineering, Jaipur
+                                            </div>
+                                            <div class="date">2019 - 2023 <span>|</span> CSE</div>
+                                            <p>
+                                                Bachelor's Degree in Computer Science and Engineering.
+                                            </p>
+                                        </div>
+
+                                        <!-- resume item -->
+                                        <div class="resume-item">
+                                            <div class="name">M.D.V.M school, Neemrana</div>
+                                            <div class="date">2006 - 2019 <span>|</span>School </div>
+                                            <p>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+							Skills
+						-->
+                        <div class="content skills">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+                                    <!-- title -->
+                                    <div class="title"><span>Personal</span> Skills</div>
+
+                                    <!-- skills -->
+                                    <div class="skills-list card-box">
+                                        <ul>
+                                            <li>
+                                                <div class="name">Communication</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:90%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="name">People Management</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:90%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="name">Critical Thinking</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:85%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="name">Cognitive Flexiblity</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:80%;"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+                                    <!-- title -->
+                                    <div class="title"><span>Professional</span> Skills</div>
+
+                                    <!-- skills -->
+                                    <div class="skills-list card-box">
+                                        <ul>
+                                            <li>
+                                                <div class="name">Python</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:90%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="name">PHP</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:80%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="name">C / C++</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:70%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="name">HTML / CSS / Javascript</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:60%;"></div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 
+				Card - Works
+			-->
+            <div class="card-inner" id="works-card">
+                <div class="row card-container">
+
+                    <!--
+						Card Wrap
+					-->
+                    <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar="">
+
+                        <!-- Work Image -->
+                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+                            style="background-image: url(./image/profile3.gif);"></div>
+
+                        <!--
+							Inner Top
+						-->
+                        <div class="content inner-top">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                                    <div class="title-bg">Portfolio</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+							Works
+						-->
+                        <div class="content works">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+                                    <!-- title -->
+                                    <div class="title"><span>My</span> Portfolio</div>
+
+                                </div>
+                                <div class="col col-m-12 col-t-7 col-d-7 col-d-lg-8">
+
+                                    <!-- filters -->
+                                    <div class="filter-menu filter-button-group">
+                                        <div class="f_btn active">
+                                            <label><input type="radio" name="fl_radio" value="grid-item">All</label>
+                                        </div>
+                                        <div class="f_btn">
+                                            <label><input type="radio" name="fl_radio" value="web">Python</label>
+                                        </div>
+                                        <div class="f_btn">
+                                            <label><input type="radio" name="fl_radio" value="desktop">IOT</label>
+                                        </div>
+                                        <div class="f_btn">
+                                            <label><input type="radio" name="fl_radio" value="site">Web</label>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- work items -->
+                            <div class="row grid-items">
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item desktop">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="#popup-17" class="has-popup-media">
+                                                <img src="./image/bluetooth.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="desc">
+                                            <a href="#popup-17" class="name has-popup-media">Home Automation
+                                            </a>
+                                            <div class="category">IOT</div>
+                                        </div>
+                                        <div id="popup-17" class="popup-box mfp-fade mfp-hide">
+                                            <div class="content">
+                                                <div class="image">
+                                                    <img src="./image/bluetooth.jpg" alt="">
+                                                </div>
+                                                <div class="desc">
+                                                    <div class="post-box">
+                                                        <h1>Home Automation</h1>
+                                                        <div class="blog-detail">IOT</div>
+                                                        <div class="blog-content">
+                                                            <p>
+                                                                Controlling home appliances vai a bluetooth.
+                                                            </p>
+                                                            <ul class="list-style">
+
+                                                                <li>Arduino</li>
+                                                                <li>Bluetooth Module</li>
+                                                                <li>Relay Module</li>
+                                                            </ul>
+                                                        </div>
+                                                        <p><strong><a
+                                                                    href="https://github.com/ankit1509/Home_Automation">View
+                                                                    Project</strong></a>
+                                                        </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item desktop">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="#popup-16" class="has-popup-media">
+                                                <img src="./image/home-automation.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="desc">
+                                            <a href="#popup-16" class="name has-popup-media">Smart Home
+                                            </a>
+                                            <div class="category">IOT</div>
+                                        </div>
+                                        <div id="popup-16" class="popup-box mfp-fade mfp-hide">
+                                            <div class="content">
+                                                <div class="image">
+                                                    <img src="./image/home-automation.jpg" alt="">
+                                                </div>
+                                                <div class="desc">
+                                                    <div class="post-box">
+                                                        <h1>Smart Home</h1>
+                                                        <div class="blog-detail">IOT</div>
+                                                        <div class="blog-content">
+                                                            <p>
+                                                                Controlling home appliances vai a wi-fi
+                                                            </p>
+                                                            <p>
+                                                                Using NODE MCU &amp; Relay Module.
+                                                            </p>
+                                                            <ul class="list-style">
+                                                                <li>Arduino</li>
+                                                                <li>NODE MCU</li>
+                                                                <li>Relay Module</li>
+                                                            </ul>
+                                                        </div>
+                                                        <p><strong><a
+                                                                    href="https://github.com/ankit1509/Home_Automation">View
+                                                                    Project</strong></a>
+                                                        </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- work item web -->
+                                <!--new one-->
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item web">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="#popup-5" class="has-popup-media">
+                                                <img src="./image/snake-water-gun.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="desc">
+                                            <a href="#popup-5" class="name has-popup-desktop">snake, water, gun
+                                                game</a>
+                                            <div class="category">Python</div>
+                                        </div>
+                                        <div id="popup-5" class="popup-box mfp-fade mfp-hide">
+                                            <div class="content">
+                                                <div class="image">
+                                                    <img src="./image/snake-water-gun.jpg" alt="">
+                                                </div>
+                                                <div class="desc">
+                                                    <div class="post-box">
+                                                        <h1>snake, water, gun
+                                                            game</h1>
+                                                        <div class="blog-detail">Python</div>
+                                                        <div class="blog-content">
+                                                            <p>
+                                                                Its is a snake, water, gun game
+                                                            </p>
+                                                            <p>
+
+                                                            </p>
+                                                            <ul class="list-style">
+                                                                <li>Python</li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <p><strong><a
+                                                                    href="https://github.com/ankit1509/ankit-choudhary-mini-projects-">View
+                                                                    Project</strong></a>
+                                                        </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item web">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="#popup-7" class="has-popup-media">
+                                                <img src="./image/flappy.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="desc">
+                                            <a href="#popup-7" class="name has-popup-desktop">Flappy bird game</a>
+                                            <div class="category">Python</div>
+                                        </div>
+                                        <div id="popup-7" class="popup-box mfp-fade mfp-hide">
+                                            <div class="content">
+                                                <div class="image">
+                                                    <img src="./image/flappy.jpg" alt="">
+                                                </div>
+                                                <div class="desc">
+                                                    <div class="post-box">
+                                                        <h1>Flappy bird game</h1>
+                                                        <div class="blog-detail">Python</div>
+                                                        <div class="blog-content">
+                                                            <p>
+                                                                It is Flappy bird game using Python </p>
+                                                            <p>
+                                                                using Python ,Pygame
+                                                            </p>
+                                                            <ul class="list-style">
+                                                                <li>Python</li>
+                                                                <li>Pygame</li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <p><strong><a
+                                                                    href="https://github.com/ankit1509/Flappy-bird-game">View
+                                                                    Project</strong></a>
+                                                        </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item web">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="#popup-19" class="has-popup-media">
+                                                <img src="./image/stone-paper-sicssor.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="desc">
+                                            <a href="#popup-19" class="name has-popup-desktop">Stone, paper, sicssor game</a>
+                                            <div class="category">Python</div>
+                                        </div>
+                                        <div id="popup-19" class="popup-box mfp-fade mfp-hide">
+                                            <div class="content">
+                                                <div class="image">
+                                                    <img src="./image/stone-paper-sicssor.jpg" alt="">
+                                                </div>
+                                                <div class="desc">
+                                                    <div class="post-box">
+                                                        <h1>Stone, paper, sicssor game</h1>
+                                                        <div class="blog-detail">Python</div>
+                                                        <div class="blog-content">
+                                                            <p>
+                                                                Its is a stone, paper, sicssor game
+                                                            </p>
+                                                            <ul class="list-style">
+                                                                <li>Python</li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <p><strong><a
+                                                                    href="https://github.com/ankit1509/ankit-choudhary-mini-projects-">View
+                                                                    Project</strong></a>
+                                                        </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--new onw popup4-->
+                                
+                                
+
+                                
+                                
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item site">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="https://ankit1509.github.io/my-first-webpage/">
+                                                <img src="./image/defence.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+
+                                            <div class="desc">
+                                                <a href="#popup-12" class="name has-popup-desktop">Indian Defence</a>
+                                                <div class="category">Web</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item site">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="https://ankit1509.github.io/My-Portfolio/">
+                                                <img src="./image/bluetooth.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+
+                                            <div class="desc">
+                                                <a href="#popup-12" class="name has-popup-desktop">My Portfolio</a>
+                                                <div class="category">Web</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item site">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="https://ankit1509.github.io/grocery-webpage/">
+                                                <img src="./image/grocery.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+
+                                            <div class="desc">
+                                                <a href="#popup-12" class="name has-popup-desktop">Grocery webpage</a>
+                                                <div class="category">Web</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item site">
+                                    <div class="box-item card-box">
+                                        <div class="image">
+                                            <a href="https://ankit1509.github.io/speedometer-task---ThingsGoSocial/speedometer%20task%20-%20ThingsGoSocial/index.html">
+                                                <img src="./image/speedometer.jpg" alt="">
+                                                <span class="info">
+                                                    <span class="icon fas fa-code"></span>
+                                                </span>
+                                            </a>
+
+                                            <div class="desc">
+                                                <a href="#popup-12" class="name has-popup-desktop">speedomerer</a>
+                                                <div class="category">Web</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card - Contacts -->
+
+            <div class="card-inner" id="contacts-card">
+                <div class="row card-container">
+
+                    <!-- Card Wrap -->
+                    <div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar="">
+
+                        <!-- contact Image -->
+                        <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6"
+                            style="background-image: url(./image/either.jpg);"></div>
+
+
+                        <!-- Inner Top -->
+                        <div class="content inner-top">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+                                    <div class="title-bg">Contacts</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contacts Info -->
+                        <div class="content contacts-info">
+                            <div class="row">
+                                <div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+                                    <!-- title -->
+                                    <div class="title"><span>Wanna Have</span> a cup of Coffee</div>
+
+                                </div>
+                            </div>
+
+                            <!-- contacts items -->
+                            <div class="row contacts-items">
+
+                                <!-- contacts item -->
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+                                    <div class="contacts-item card-box">
+                                        <div class="icon"><i class="fas fa-map-marker"></i></div>
+                                        <div class="name">Address</div>
+                                        <p>
+                                            Neemrana, Rajasthan, India.<br>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- contacts item -->
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+                                    <div class="contacts-item card-box">
+                                        <div class="icon"><i class="fas fa-at"></i></div>
+                                        <div class="name">Email</div>
+                                        <a href="mailto:help@arbaazkhan.ml?subject=Hi"><span
+                                                class="label">ac2000choudhary@gmail.com</span></a>
+                                    </div>
+                                </div>
+
+                                <!-- contacts item -->
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+                                    <div class="contacts-item card-box">
+                                        <div class="icon"><i class="fas fa-phone"></i></div>
+                                        <div class="name">Phone</div>
+                                        <a href="https://wa.me/+919996317661"><span
+                                                class="label">+919996317661</span></a>
+                                    </div>
+                                </div>
+
+                                <!-- contacts item -->
+                                <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+                                    <div class="contacts-item card-box">
+                                        <div class="icon"><i class="fas fa-check-square"></i></div>
+                                        <div class="name">Freelance</div>
+                                        <p>
+                                            Available :)
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <ul class="icons">
+
+                                <li><a href="https://www.youtube.com/channel/UCIxUV31_U9tdkZnZb_v0bMw"
+                                        class="icon fab fa-youtube" aria-hidden="true"><span class="label">
+                                            Youtube</span></a></li>
+                                <li><a href="https://twitter.com/letscode7" class="icon fab fa-twitter"
+                                        aria-hidden="true"><span class="label"> Twitter</span></a></li>
+                                <li><a href="mailto:ac2000choudhary@gmail.com" class="icon fab fa-google"
+                                        aria-hidden="true"><span class="label"> Google</span></a></li>
+                                <li><a href="https://www.facebook.com/letscode1509" class="icon fab fa-facebook-f"
+                                        aria-hidden="true"><span class="label"> Facebook</span></a></li>
+                                <li><a href="https://letscode1509.blogspot.com/" class="fab fa-blogger"
+                                        aria-hidden="true"><span class="label"> blogger</span></a></li>
+                                <li><a href="https://github.com/ankit1509" class="icon fab fa-github"
+                                        aria-hidden="true"><span class="label"> Github</span></a></li>
+                                <li><a href="https://github.com/letscode1509" class="icon fab fa-github"
+                                        aria-hidden="true"><span class="label"> Github</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/ankit-choudhary-342410175"
+                                        class="icon fab fa-linkedin" aria-hidden="true"><span class="label">
+                                            Linkedin</span></a></li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+				Lines Grid
+			-->
+    <div class="lines-grid">
+        <div class="row">
+            <div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3"></div>
+            <div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+                <div class="lines">
+                    <div class="line-1"></div>
+                    <div class="line-2" style="animation-delay: 1s;"></div>
+                </div>
+            </div>
+            <div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+                <div class="lines">
+                    <div class="line-1"></div>
+                </div>
+            </div>
+            <div class="col col-m-0 col-t-0 col-d-0 col-d-lg-3">
+                <div class="lines">
+                    <div class="line-1"></div>
+                    <div class="line-2" style="animation-delay: 0s;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <script>
+
+
+
+
+        const Http = new XMLHttpRequest();
+        const url = 'https://hackathondemo.nanorep.co/api/widget/v1/hello.js?kb=English&account=hackathondemo&url=domain.com&nostats=true';
+        Http.open("GET", url);
+        Http.setRequestHeader('accept', 'application/json');
+        Http.send();
+        var session_id;
+        var conversation_id;
+        var intent_response;
+        var dialouge_end = true;
+        var voice = window.speechSynthesis;
+        var voices = [];
+        Http.onreadystatechange = (e) => {
+            if (Http.readyState === 4 && Http.status === 200) {
+                session_id = JSON.parse(Http.responseText)['sessionId'];
+                console.log(session_id);
+
+                if (session_id) {
+                    const Http = new XMLHttpRequest();
+                    const url = "https://hackathondemo.nanorep.co/api/conversation/v1/create?sid=" + session_id + "&kb=English&account=hackathondemo&apiKey=71b973e1-d34e-41fe-8128-02567bcff8fb";
+                    Http.open("GET", url);
+                    Http.setRequestHeader('accept', 'application/json');
+                    Http.send();
+                    Http.onreadystatechange = (e) => {
+                        if (Http.readyState === 4 && Http.status === 200) {
+                            conversation_id = JSON.parse(Http.responseText)['id'];
+                            console.log(conversation_id)
+                        }
+
+                    };
+                }
+            }
+
+        };
+
+
+        function getCall(URL) {
+            const Http = new XMLHttpRequest();
+            const url = URL;
+            Http.open("GET", url);
+            Http.setRequestHeader('accept', 'application/json');
+            Http.send();
+            Http.onreadystatechange = (e) => {
+                console.log(Http.responseText)
+            }
+        }
+
+
+        async function bar() {
+            voices = voice.getVoices();
+        }
+
+        function foo() {
+            var msg = new SpeechSynthesisUtterance('Welcome to Mr khan Portfolio. I am jarvis digital AI assistant created by arbaz khan. you can email us on help@arbaazkhan.ml. so i can help you to schedule a meeting with him. ');
+            bar().then(function (successInfo) {
+                console.log(voices);
+            });
+
+            // voices.forEach(function (x) {
+            //     console.log(x)
+            // })
+            console.log(voices);
+            msg.voice = speechSynthesis.getVoices().filter(function (voice) {
+                return voice.name == 'Google US English';
+            })[0];
+            voice.speak(msg);
+            document.getElementById("start").remove();
+
+
+        }
+
+
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./script/particles.js"></script>
+    <script src="./script/particles-setting.js"></script>
+    <script>
+        new Typed('#type-text', {
+            strings: [
+                `a <strong>student of Computer Science Engineering at Anand International College of
+                                    Engineering, Jaipur<img src="./image/laptop.png" height="23"> </strong>`,
+                `a <strong>learner of Python Development<img src="./image/python.png" height="23">
+                                </strong>`,
+                `a <strong>learner of web development<img src="./image/web-development.jpg" height="23">
+                                </strong>`
+            ],
+            typespeed: 100
+            ,loop: true
+
+        })
+    </script>
+
+</body>
+
+</html>
